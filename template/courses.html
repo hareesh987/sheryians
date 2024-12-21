@@ -1,0 +1,103 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block csslink %} <link rel="stylesheet" href="{% static 'css/courses.css' %}">{% endblock csslink %}
+
+{% block title %}
+Courses
+{% endblock title %}
+
+{% block body %}
+    <span id="c_heading1" class="main_header">We're not a <mark>course</mark></span><br>
+    <span id="c_heading2" class="main_header"><mark>factory.</mark></span><br>
+    <span id="c_heading3" >We focus on courses that really help.</span><br>
+    <span id="courses_do_Work">Courses which do work 🡫</span><br>
+
+    <div id="main_container">
+        <div id="main_sub_one" class="mainsub">
+            <a href="https://sheryians.com/courses/courses-details/Front-End%20Domination:%20Create%20Anything%20with%20Code">
+                <div id="one_body" class="onecourse">
+                    <div id="course_img1_division" class="courseimgdivision"><img id="course_img1"class="courseimgs" src="./../static/images/course1.jpg" alt=""></div>
+                    <div id="course_content1_division" class="coursecontents">
+                        <h2 class="courseheading">Front-End Domination: Create Anything with Code</h2>
+                        <mark class="coursemark">HINDI</mark>
+                        <mark class="discountmark">Limited Time Discount</mark>
+                        <h2 class="money">₹4999</h2>
+                        <del class="delprice1">₹9999</del>
+                        <span class="off">50% OFF</span>
+                    </div>
+                </div>
+            </a>
+            
+            <div id="one_button" class="onecourse"><button class="viewdetails">View Details</button></div>
+        </div>
+        <div id="main_sub_two" class="mainsub">
+            <a href="https://sheryians.com/courses/courses-details/Back-End%20Domination:%20Create%20Efficient%20Back-End.">
+                <div id="two_body" class="twocourse">
+                    <div class="courseimgdivision"><img class="courseimgs" src="./../static/images/course2.png" alt=""></div>
+                    <div id="course_content2_division" class="coursecontents">
+                        <h2 class="courseheading">Back -End Domination: Create Efficient Back End</h2>
+                        <mark class="coursemark">HINDI</mark>
+                        <mark class="discountmark">Limited Time Discount</mark>
+                        <h2 class="money">₹5999</h2>
+                        <del class="delprice1">₹9999</del>
+                        <span class="off">50% OFF</span>
+                    </div>
+                </div>
+            </a>
+            <div id="two_button" class="twocourse"><button class="viewdetails">View Details</button></div>
+        </div>
+        <div id="main_sub_three" class="mainsub">
+            <a href="https://sheryians.com/courses/courses-details/Aptitude%20&%20Reasoning%20for%20Campus%20Placements">
+                <div id="three_body" class="threecourse">
+                    <div class="courseimgdivision"><img class="courseimgs" src="./../static/images/course3.webp" alt=""></div>
+                    <div id="course_content3_division" class="coursecontents">
+                        <h2 class="courseheading">Aptitude & Reasoning for Campus Placement</h2>
+                        <mark class="coursemark">HINGLISH</mark>
+                        <mark class="discountmark" id="dismark3">Black Friday Sale</mark>
+                        <h2 class="money">₹999</h2>
+                        <del class="delprice1">₹9999</del>
+                        <span class="off">50% OFF</span>
+                    </div>
+                </div>
+            </a>
+            <div id="three_button" class="threecourse"><button class="viewdetails">View Details</button></div>
+        </div>
+        <div id="main_sub_four" class="mainsub">
+            <a href="https://sheryians.com/courses/courses-details/Java%20&%20DSA%20Domination">
+                <div id="four_body" class="fourcourse">
+                    <div class="courseimgdivision"><img class="courseimgs" src="./../static/images/course4.webp" alt=""></div>
+                    <div id="course_content4_division" class="coursecontents">
+                        <h2 class="courseheading">Java & DSA Domination</h2>
+                        <mark class="coursemark">HINGLISH</mark>
+                        <mark class="discountmark" id="dismark4">Limited Time Discount</mark>
+                        <h2 class="money" id="money4">₹4999</h2>
+                        <del class="delprice">₹9999</del>
+                        <span class="off1">50% OFF</span>
+                    </div>
+                </div>
+            </a>
+            <div id="four_button" class="fourcourse"><button class="viewdetails">View Details</button></div>
+        </div>
+    </div>
+    <br>
+    <div id="main_container_two">
+        <div id="two_sub_one" class="mainsubtwo">
+            <a href="https://sheryians.com/courses/courses-details/Three.js%20Domination">
+                <div id="five_body" class="fivecourse">
+                    <div class="courseimgdivision"><img class="courseimgs" src="./../static/images/course5.webp" alt=""></div>
+                    <div id="course_content5_division" class="coursecontents">
+                        <h2 class="courseheading">Three.js Domination</h2>
+                        <mark class="coursemark">HINDI</mark>
+                        <mark class="discountmark" id="discount5">Black Friday Sale</mark>
+                        <h2 class="money" id="money5">₹2499</h2>
+                        <del class="delprice">₹9999</del>
+                        <span class="off1">50% OFF</span>
+                    </div>
+                </div>
+            </a>
+            <div id="five_button" class="fivecourse"><button class="viewdetails">View Details</button></div>
+        </div>
+    </div>
+
+
+{% endblock body %}
